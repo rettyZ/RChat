@@ -1,0 +1,17 @@
+name: RChat
+version: '${project.version}'
+main: pl.rettyz.rchat.RChat
+api-version: 1.16
+author: rettyZ
+description: Chat control plugin for your server!
+website: https://github.com/rettyZ
+
+permissions:
+ rchat.admin:
+  description: Use chat command.
+ rchat.use:
+  description: Use chat if disabled.
+
+commands:
+ chat:
+  description: Open chat menu.
